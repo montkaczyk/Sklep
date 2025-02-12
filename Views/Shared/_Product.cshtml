@@ -1,0 +1,13 @@
+﻿@model sklep.Models.ProductViewModel
+
+<div class="product-item">
+    <label asp-for="@Model.Name"></label>: @Model.Name
+    <br />
+    <label asp-for="@Model.Category"></label>: @Model.Category
+    <br />
+    <label asp-for="@Model.Price"></label>: $@Model.Price
+    <br />
+    <label asp-for="@Model.StockQuantity"></label>: @Model.StockQuantity in stock
+    <br />
+    <hr />
+</div>
